@@ -141,3 +141,37 @@ Collapse
   - Update a Shoe
   - Delete a Shoe
   - Flask app should render all the html via templates
+
+
+
+  ### HOW TO CREATE YOUR SERVER ENVIRONMENT
+ 
+   # install dependencies. Since the pipfile already exists with the dependencies, you ONLY need to run env install
+  ```
+  pipenv install
+  ```
+
+   # NOTE! if you get a warning about python version being different. Go to pipfile and change python version to correct version.
+    
+    # EXAMPLE
+    ```
+    [requires]
+    python_version = "3.7"
+    ```
+    # CHANGE TO
+    ```
+    [requires]
+    python_version = "3.8"
+    ```
+  
+  # enter pipenv shell
+  ```
+  pipenv shell
+  ```
+
+  # now you can start the server by calling the file name 'python filename.py'
+  ```
+  python filename.py
+  ```
+
+ 
