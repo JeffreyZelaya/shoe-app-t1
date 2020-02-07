@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 import os
@@ -80,6 +80,11 @@ def shoe_delete(id):
     db.session.commit()
     
     return "Dem shoes ugly as hell!!! Get it gone! (it was successfully deleted)"
+
+
+@app.route('/hello/')
+def hello(name=None):
+    return render_template('hello.html', name=name)
 
 
 if __name__ == '__main__':
