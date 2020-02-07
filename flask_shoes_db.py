@@ -86,6 +86,26 @@ def shoe_delete(id):
 def hello(name=None):
     return render_template('hello.html', name=name)
 
+@app.route('/')
+def index(name=None):
+    return render_template('index.html', name=name)
+
+@app.route('/allProductsPage')
+def allProductsPage(name=None):
+    return render_template('allProductsPage.html', name=name)
+
+@app.route('/GlobalShoe_Contact.html')
+def GlobalShoe_Contact(name=None):
+    return render_template('GlobalShoe_Contact.html', name=name)
+
+@app.route('/about')
+def contact(name=None):
+    return render_template('about.html', name=name)
+
+@app.route('/singleProductPageOne')
+def singleProductPageOne(name=None):
+    return render_template('singleProductPageOne.html', name=name)
+
 
 if __name__ == '__main__':
     app.run(debug=True)    

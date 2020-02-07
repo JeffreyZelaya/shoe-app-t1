@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/3a571c9653.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="footer.css">
-    <link rel="index" href="index.html">
-    <link rel="contact" href="contact.html">
-    <link rel="about" href="about.html">
-    <link rel="products" href="products.html">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/homepage.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/GlobalShoe_Contact.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/about.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/singleProductPageOne.css') }}">
     <title>Global Shoe Shop</title>
 </head>
 <body>
@@ -30,7 +31,7 @@
             </div>
 
             <div class="link">
-                    <a href="products.html">Products</a>
+                    <a href="allProductsPage">Products</a>
             </div>
 
         </div>
