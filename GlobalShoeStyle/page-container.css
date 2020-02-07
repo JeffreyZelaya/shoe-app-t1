@@ -1,0 +1,26 @@
+/* ###################################### */
+/* This is the Global Shoe Shop CSS Code! */
+/* ###################################### */
+
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    grid-area: 1;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+    border: 1.25px solid #cea135;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
