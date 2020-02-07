@@ -1,21 +1,42 @@
 .welcome {
-    background-image: url(images/adam-jang.jpg);
+    background-image: url(images/color-world-map.jpg);
     background-repeat: no-repeat;
     background-size: 1300px 900px;
     background-position: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-ar;
     background-color: #7CB6B6;
     border: 0px;
-    margin: 0px;
-}
-
-.welcome .feature {
-    text-decoration: #2D882D;
+    margin-left: 2rem;
 
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
+.featured img {
+    border-radius: 15%;
+    margin-right: 3rem;
 }
+
+.feature img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+/* .welcome .navbar-container {
+    background-image: url(images/color-world-map.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 900px;
+    background-position: center;
+} */
