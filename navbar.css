@@ -12,12 +12,15 @@ body {
 }
 
 .navbar-logo img {
+    display: flex;
     width: 10rem;
+
 }
 
 .navbar-logo p {
+    display: contents;
     font-size: 2rem;
-    padding-left: 1rem;
+    padding-left: 3rem;
 }
 
 .navbar-container .navbar-links {
