@@ -1,26 +1,31 @@
 body {
+    background-image: url(images/color-world-map.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
+    color: purple;
+    margin-bottom: 60px;
 }
 
 .navbar-container {
     display: flex;
-    background-color: aqua;
     align-items: center;
     justify-content: space-between;
     padding-left: 3rem;
-    border: solid 5px;
 }
 
 .navbar-logo img {
     display: flex;
     width: 10rem;
-
+    background-color: yellow;
+    border-radius: 15%;
 }
 
 .navbar-logo p {
     display: contents;
     font-size: 2rem;
     padding-left: 3rem;
+    color: purple;
 }
 
 .navbar-container .navbar-links {
@@ -34,7 +39,7 @@ body {
 .navbar-links .link a {
     padding: 3rem;
     text-decoration: none;
-    color: black;
+    color: crimson;
     transition: 0.5;
 }
 

@@ -10,13 +10,14 @@ body {
 
 .footer-container {
   display: flex;
-  border: solid 5px;
   justify-content: center;
   align-items: center;
 }
 
 .footer-container > .footer-logo img {
   width: 8rem;
+  border-radius: 15%;
+  background-color: yellow;
 }
 
 .footer-container > .footer-links {
