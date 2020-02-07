@@ -1,6 +1,8 @@
 .welcome {
-    padding-right: 85px;
-    padding-left: 15px;
+    background-image: url(images/adam-jang.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 900px;
+    background-position: center;
     display: flex;
     justify-content: space-between;
     background-color: #7CB6B6;
@@ -11,10 +13,6 @@
 .welcome .feature {
     text-decoration: #2D882D;
 
-}
-    
-.feature img {
-    
 }
 
 .footer {
