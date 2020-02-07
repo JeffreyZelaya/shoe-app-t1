@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+
+.footer-connecting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  border: solid 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container > .footer-logo img {
+  width: 8rem;
+}
+
+.footer-container > .footer-links {
+  display: flex;
+}
+
+.footer-container > .footer-links > .links {
+  font-size: 4rem;
+}
+
+.footer-links > .links a {
+  padding: 2rem;
+}
