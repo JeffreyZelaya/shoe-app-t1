@@ -1,0 +1,23 @@
+.welcome {
+    padding-right: 85px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7CB6B6;
+    border: 0px;
+    margin: 0px;
+}
+
+.welcome .feature {
+    text-decoration: #2D882D;
+
+}
+    
+.feature img {
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
